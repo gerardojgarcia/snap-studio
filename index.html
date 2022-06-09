@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="snap-studio.world/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH2556K0J7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QH2556K0J7');
+</script>
+    <title>snap-studio!! Custom Furniture and Home Goods</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-title">
+            <h1>snap-studio!!</h1>
+        </div>
+        <header>
+
+            <div class="logo">snap-studio!!</div>
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="./collection.html">
+                        <li class="dropdown">COLLECTION
+                            <ul class="drop-menu">
+                                <li><a href="./seating.html">SEATING</a></li>
+                                <li><a href="./tables.html">TABLES</a></li>
+                                <li><a href="./plants.html">PLANTS</a></li>
+                                <li><a href="./storage.html">STORAGE</a></li>
+
+                            </ul>
+                        </li>
+                    </a>
+                    <a href="services.html">
+                        <li>SERVICES</li>
+                    </a>
+                    <a href="#contact">
+                        <li>ABOUT/CONTACT</li>
+                    </a>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="hero-image"></div>
+            
+            <div class="services" data-aos="fade-up">
+                <h1 data-aos="fade-up">Services</h1>
+                <div class="serv__descr"data-aos="fade-up">
+                    <p><i>Handmade Furniture</i> - <span class="line"></span><i>Furniture Restoration</i> - </p>
+                    <p><i>Picture Frames</i> - <span class="line"></span><i>Cabinets</i> - <span
+                            class="line"></span><i>Built-Ins</i> - </p>
+                    <p><i>Wedding Builds</i> - <span class="line"></span><i>Other Event Designs</i></p>
+                </div>
+                <a href="#contact"><button id="serve-btn" >CONTACT</button></a>
+            </div>
+
+
+            <div class="testimonials" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
+                <h2 data-aos="fade-up">Testimonials</h2>
+                <div class="quote" data-aos="fade-left"
+
+                data-aos-offset="500"
+                data-aos-duration="500">
+                    <strong>"Snap-Studio truly delivers the customers needs down to the details. Extremely happy with
+                        how our custom champagne wall turned out for our wedding, everything was perfect. Couldn’t have
+                        asked for a better product on our special day."</strong>
+                    <p>- Noel Sanchez</p>
+
+                </div>
+
+                <div class="quote" data-aos="fade-up"><strong>"Snap Studio doesn’t disappoint, they built the perfect office desk with care
+                        and precision. Don’t go to IKEA for your furniture. If you want unique and well crafted
+                        furniture support Snap Studio!"</strong>
+                    <p>- Jennifer Payan</p>
+                </div>
+
+            </div>
+
+            <div class="featured" data-aos="fade-up">
+                <h3 data-aos="fade-up">Featured Items</h3 >
+
+               <a href="./dowelshelf.html"> <img id="img1" src="./images/dowelshelfwhitebg.jpg" alt="" href="index.html" data-aos="fade-up"></a>
+                <a href="./miniconsole.html"><img id="img2" src="./images/miniconsolewhitebg.jpg" alt="" data-aos="fade-up"></a>
+               <a href="./stackshelf.html"> <img id="img3" src="./images/stackshelf1whitebg.jpg" alt="" data-aos="fade-up"></a>
+
+
+
+
+            </div>
+
+            <div class="events" data-aos="fade-up">
+                <h3 data-aos="fade-up">Events</h3>
+                <img id="event__img1" data-aos="fade-up" src="./images/IMG_1059_result.jpg" alt="" href="index.html">
+                <img id="event__img2" data-aos="fade-up" src="./images/IMG_1061_result.jpg" alt="">
+                <img id="event__img3" data-aos="fade-up" src="./images/IMG_1128_result.jpg" alt="">
+
+
+
+            </div>
+
+        </main>
+
+
+
+
+        <footer>
+            <div class="contact" id="contact">
+                <div class="contact-info">
+                    <h4>Contact</h4>
+                <p>email: hi@snap-studio.world</p>
+                <p>phone: 323.510.7627</p>
+                <p>text: 323.510.7627</p>
+                </div>
+                <div class="form">
+                    <script src="main.js"></script>
+                
+                    <form method="post" action="https://formsubmit.co/hi@snap-studio.world">
+                       
+                        <label for="name">NAME</label>
+                        <input type="text" name="name" id="form-name" placeholder="What's your name?" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="form-email" placeholder="I'll need your email" required>
+                        <label for="text">DETAILS</label>
+                        <textarea type="text" name="message" id="contact-details" placeholder="Let me know what you need!" required></textarea>
+
+
+                        <button id="submit" onclick="submitted()" value="Submit">Submit</button>
+                       
+                    </form>
+
+                </div>
+               
+                
+            </div>
+
+
+        </footer>
+    </div>
+    <script>
+        AOS.init({duration: 1200,});
+
+      </script>
+</body>
+
+</html>
