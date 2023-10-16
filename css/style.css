@@ -49,6 +49,12 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+
+a {
+
+    text-transform: uppercase;
+}
+
 /* Make images easier to work with */
 img,
 picture {
@@ -517,6 +523,10 @@ strong {
         color: white;
 
     }
+
+    nav a {
+        text-transform: uppercase;
+    }
     
     nav a:visited {
         color: black;
@@ -854,6 +864,7 @@ strong {
         font-size: 2rem;
         padding-top: 15px;
         border: none;
+        text-transform: uppercase;
     }
 
     .form button {
@@ -870,6 +881,7 @@ strong {
         transition: 500ms;
         color: black;
         border: 1px solid black;
+        text-transform: uppercase;
     }
 
      #submit:hover {
@@ -1172,4 +1184,10 @@ strong {
     margin-left: 25px;
 }
 
+}
+
+
+#serve-btn {
+    cursor: pointer;
+    text-transform: uppercase;
 }
